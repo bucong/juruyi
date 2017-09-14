@@ -294,15 +294,20 @@ a:hover {
 .ind-login form span {
   font-size: 30px;
   color: #d8c8c8;
+  width: 30px;
 }
 .ind-login form div {
-  padding-top: 24px;
+  padding-top: 16px;
+  padding-bottom: 12px;
   border-bottom: 2px solid #d2c7c7;
+  display: flex;
+  align-items: center;
 }
 .ind-login form input {
   height: 30px;
   width: 80%;
   text-indent: 1em;
+  border: none;
 }
 .ind-login form input::-webkit-input-placeholder {
   color: #dddcdc;
